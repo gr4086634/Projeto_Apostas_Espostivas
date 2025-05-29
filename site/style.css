@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -81,4 +80,112 @@ form button {
 
 form button:hover {
   background-color: #003366;
+}
+
+.apostas-em-andamento {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.apostas-em-andamento h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.apostas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.aposta-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.aposta-card:hover {
+  transform: scale(1.03);
+}
+
+.aposta-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.aposta-card h3 {
+  margin: 0.8rem;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.aposta-card p {
+  margin: 0 0.8rem 1rem;
+  color: #555;
+}
+
+.aposta-card button {
+  display: block;
+  margin: 0 0.8rem 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.aposta-card button:hover {
+  background-color: #0056b3;
+}
+
+.esportes {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.esportes h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.esportes-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.esporte-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.esporte-card:hover {
+  transform: translateY(-6px);
+}
+
+.imagem-esporte img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.esporte-card h3 {
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: #222;
 }
