@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00ff7f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #222;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #00ff7f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00ff7f;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00cc66;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
